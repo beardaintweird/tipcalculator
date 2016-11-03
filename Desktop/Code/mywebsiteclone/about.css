@@ -1,0 +1,211 @@
+/* stylesheet for I_Am_Samee.html page
+i'm not actually tpying but this is for my website anyways you see quality content na
+mean jelly bean gelateen hahaaa okay bas
+wait naa i need more never really done you know always improving always
+fail fast innovate fast. don't aim for failure but don't be deterred by it either
+space gray hex & rgb code: #a7adba & (211,211,211)
+*/
+
+body {
+  background: url(backgrounds/linedpaper.png);
+}
+
+.prof_pic {
+  float: left;
+}
+
+/*.text_blurb {
+
+  border: 1px black solid;
+
+}*/
+
+h3 { /*The header message*/
+  color: black;
+  font-family: Avant-Garde, sans-serif;
+  font-size: 3.5vw;
+  font-weight: lighter;
+  display:inline-flex;
+  padding-right: .5em;
+  margin-bottom: 1vw;
+  margin-top: 3vh;
+  margin-right: 2.5em;
+  padding-bottom: 0;
+  float: right;
+}
+
+h5 { /*The text blob*/
+  color: black;
+  letter-spacing: 1px;
+  font-family: Avant-Garde, sans-serif;
+  font-weight: lighter;
+  font-size: 1.5vw;
+  display:inline-flex;
+  border-radius: 2%;
+  padding: 5px;
+  margin-bottom: 15vh;
+  margin-top: 0;
+  margin-right: 8.85em;
+  /*background-color: rgba(211, 211, 211, .2);*/
+  max-width: 50%;
+  float: right;
+}
+
+.prof_pic {
+  /*background: rgba(101,115,126,0.4);*/
+  background-color: white;
+  border-radius: 5%;
+  margin-left: 6.5%;
+  margin-top: 2%;
+  height: 20vw;
+  width: 25vw;
+  content: url(Images/profpic2.jpg);
+}
+
+.social_icon {
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+}
+
+.fb {
+  border: solid 1px blue;
+}
+
+.twtr {
+  border: solid 1px #7ec0ee;
+}
+
+.lnkd {
+  border: solid 1px white;
+  background-color: white;
+}
+
+.icons_bar {
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 5px;
+  border-radius: 10%;
+  bottom:0;
+  clear: both;
+}
+
+.icons_bar ul {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons_bar ul li {
+  display: inline;
+}
+
+.icons_bar ul li img {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 100%;
+  max-height: 100%;
+  zoom: 10;
+  border-radius: 50%;
+  margin: auto;
+  overflow: auto;
+}
+
+.icons_bar a img:hover {
+  color: white;
+}
+
+.navbar {
+  max-height: 20%;
+  width: 100%;
+  right:0;
+  left: 0;
+  top: 0;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.navbar ul {
+  padding-left: 5em;
+  padding-right: 5em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  text-decoration: none;
+  color: white;
+  font-weight: lighter;
+  font-size: 28px;
+  font-family: Avant-Garde, sans-serif;
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #a7adba;
+  font-weight: lighter;
+  font-size: 2.5vw;
+  font-family: Avant-Garde, sans-serif;
+  text-align: center;
+}
+
+.navbar ul li:nth-child(2) a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 2.5vw;
+  font-family: Avant-Garde, sans-serif;
+  text-align: center;
+}
+
+/* Grow Shadow */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.hvr-sink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+
+.items a:hover {
+  color: #d3d3d3;
+}
